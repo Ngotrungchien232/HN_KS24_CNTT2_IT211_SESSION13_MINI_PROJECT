@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.employeemanagement.service.EmployeeServiceTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-05-28T02:42:34" hostname="LAPTOP-BAP" time="0.133">
+  <properties/>
+  <testcase name="getById_NotFound_ThrowException()" classname="com.example.employeemanagement.service.EmployeeServiceTest" time="0.115"/>
+  <testcase name="addEmployee_Success()" classname="com.example.employeemanagement.service.EmployeeServiceTest" time="0.004"/>
+  <testcase name="getAllEmployees_ReturnList()" classname="com.example.employeemanagement.service.EmployeeServiceTest" time="0.003"/>
+  <testcase name="deleteEmployee_RemovesCorrectElement()" classname="com.example.employeemanagement.service.EmployeeServiceTest" time="0.007"/>
+  <testcase name="getById_Found()" classname="com.example.employeemanagement.service.EmployeeServiceTest" time="0.003"/>
+  <system-out><![CDATA[09:42:34 [INFO] c.e.e.service.EmployeeService - Tim nhan vien voi id: 99
+09:42:34 [WARN] c.e.e.service.EmployeeService - Khong tim thay nhan vien voi id: 99
+09:42:34 [INFO] c.e.e.service.EmployeeService - Them nhan vien moi: Pham Thi D
+09:42:34 [INFO] c.e.e.service.EmployeeService - Lay danh sach tat ca nhan vien
+09:42:34 [INFO] c.e.e.service.EmployeeService - Xoa nhan vien voi id: 1
+09:42:34 [INFO] c.e.e.service.EmployeeService - Tim nhan vien voi id: 1
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
